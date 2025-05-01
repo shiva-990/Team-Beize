@@ -1,0 +1,124 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ecf0f1;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  header.header {
+    background-color: #34495e;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  header p {
+    margin: 5px 0 15px;
+  }
+  
+  nav {
+    margin-top: 20px;
+  }
+  
+  .nav-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-button:hover {
+    background-color: #2980b9;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .form-container, .details-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .form-container h2, .details-card h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .form-container input,
+  .form-container textarea,
+  .form-container select,
+  .details-card p {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+  }
+  
+  .form-container input[type="file"] {
+    padding: 5px;
+  }
+  
+  .form-container button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+  }
+  
+  .form-container button:hover {
+    background-color: #2980b9;
+  }
+  
+  .member-list {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .member-card {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .member-card img {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .details-card img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    float: right;
+  }
